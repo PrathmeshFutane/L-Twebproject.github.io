@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>LBJ WEB BPROJECT </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                margin:0px;
+                padding:0px;
+            }
+            .main{
+                width:45%;
+                padding:20px;
+                font-family:lucinda;
+                font-size:25px;
+                justify-content: center;
+                border:2px solid green;
+                line-height: 30px;
+                
+                margin-right:auto;
+                margin-left:auto;
+                margin-top:30px;
+                margin-bottom:30px;
+                position:relative;
+                top:20%;
+                bottom:20%;
+                
+            }
+            .input{
+                font-size: 25px;
+                position:static;
+                width:80%;
+                margin-left:5px;
+                margin-top:5px;
+                margin-bottom:10px;
+                
+            }
+            h2{
+                text-align: center;
+                font-size: 40px;
+                font-family: lucinda;
+                position:relative;
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+            button{
+	margin-top:20px;
+        margin-bottom:20px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	
+	background-color: transparent;
+	border: 2px solid green;
+	
+	color:green;
+    border-radius:20px;
+
+}
+
+            </style>
+    </head>
+    <body>
+        <h2>LBJ PROJECT :- Case Study 2</h2>
+        <div class="main">
+            
+        <form action="register" method="post">
+                <table >
+                    <tr>
+                        <td>
+                            Student ID :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="sid" type="text" required name="studentid"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            Student Name :
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="sname" type="text" required name="studentname"/>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            Gender :
+                        </td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="smale" name="gender" required value="male" />Male 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" id="sfemale" name="gender" required value="female"/>Female
+                        </td>
+                    </tr>
+<!--                    <tr>
+                        <td style="text-align: left;">
+                           <input type="checkbox" value="checked" name="condition"/> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Accept the terms and conditon
+                        </td>
+                    </tr>-->
+                    <tr>
+                        <td>
+                            Birthdate:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="date" type="date" required name="birthday"/>
+                        </td>
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td>
+                             City :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="city" type="text" required name="city"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            State :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="state" type="text" required name="state"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            Email Id :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="emailid" type="text" required name="emailid"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            Qualification :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="qual" type="text" required name="qualification"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            Stream :
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class='input' id="stream" type="text" required name="stream"/>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            
+                        </td> 
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                            &nbsp &nbsp <button type="submit" name="submit" class="button"   >Submit</button>    &nbsp &nbsp
+                            <button type="reset" name="reset" class="button">Reset</button>
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </table>
+        </form>
+        </div>
+    </body>
+</html>

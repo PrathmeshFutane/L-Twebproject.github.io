@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>CSV File to HTML Table Using AJAX jQuery</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  
+  <style type="text/css" media="screen">
+		.myclass{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			position: relative;
+			top: 200%;
+		}
+		input{
+			text-align: center;
+			margin: auto;
+		}
+                h1{
+                text-align: center;
+                font-size: 40px;
+                font-family: lucinda;
+                position:relative;
+                margin-top:30px;
+                margin-bottom:30px;
+            }
+            .info{
+               font-size: 1.7rem; 
+               border:2px solid green;
+               width:50%;
+               margin:auto;
+               padding:20px;
+              }
+              input{
+                  font-size: 25px;
+                position:static;
+                width:30%;
+                margin-left:5px;
+                margin-top:5px;
+                margin-bottom:10px;
+              }
+              button{
+	margin-top:20px;
+        margin-bottom:20px;
+	padding: 10px;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	background-color: transparent;
+	border: 2px solid green;
+	color:green;
+        border-radius:20px;
+
+}
+	</style>
+ </head>    
+ <body>
+  
+
+<div class="container">
+   <div class="table-responsive">
+        <h1 align="center">LBJ PROJECT :- Case Study 2</h1>
+        <br />
+        
+        <br />
+        
+        <form action="search" method="post">
+            <div align="center" class="info">
+                <label>Enter Student Id: </label>
+                <input type="text" id="myinput" name="studentid">
+
+            
+                <div align="center">
+                    <br /><button type="submit" name="submitdata" id="submitdata" class="btn btn-primary">Click to Search</button>
+                </div>
+          </div>
+        </form>
+   </div>
+ </div>
+</body>
+</html>                
+			                                                                                    
+

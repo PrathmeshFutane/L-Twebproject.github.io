@@ -1,0 +1,5 @@
+Student_Id,Student_Name,Gender,Birthday,City,State,Email_Id,Qualification,Stream
+1234,Raj,male,2000-07-27,Mumbai,Maharashtra,raj@gmail.com,BE,Electronics
+2345,Priyanka,femail,1999-08-28,pune,maharashtra,priyanka@gmail.com,B.Tech,IT
+33221,doremon,female,2000-08-25,tokiyo,japan,doremon,BCA,IT
+40883,prathmesh,male,1999-07-30,Amravati,Maharashtra,psfutane1999@gmail.com,BCA,Computer Application
